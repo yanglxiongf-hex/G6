@@ -1,5 +1,5 @@
 import { IShape } from '@antv/g-base';
-import { IAbstractGraph, IG6GraphEvent, Item } from '@antv/g6-pc';
+import { IAbstractGraph, IG6GraphEvent, Item } from '@antv/g6-core';
 
 export type ShapeEventListner = (
   event: IG6GraphEvent,
@@ -50,7 +50,7 @@ const propsToEventMap = {
 
 export function appenAutoShapeListener(graph: IAbstractGraph) {
   Object.entries(propsToEventMap).map(([eventName, propName]) => {
-    graph.on(`node:${eventName}`, (evt) => {
+    graph.on(`node:${eventName}`, evt => {
       const shape = evt.shape;
       const item = evt.item;
       const graph = evt.currentTarget as IAbstractGraph;

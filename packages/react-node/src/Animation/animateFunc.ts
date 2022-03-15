@@ -1,12 +1,12 @@
-import { Util } from '@antv/g6-core';
+import { Util } from '@antv/g6';
 
 type RatioUnit = [number, number] | [number[], number];
 
 const getRatioByArray = (arr: RatioUnit[], ratio: number) => {
   let usingArr: [number, number][] = [];
-  arr.forEach((item) => {
+  arr.forEach(item => {
     if (item[0] instanceof Array) {
-      item[0].forEach((subR) => usingArr.push([subR, item[1]]));
+      item[0].forEach(subR => usingArr.push([subR, item[1]]));
     } else {
       usingArr.push([Number(item[0]), item[1]]);
     }
