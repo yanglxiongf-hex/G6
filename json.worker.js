@@ -88,7 +88,7 @@
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/cancellation.js":
 /*!**************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/cancellation.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/cancellation.js ***!
   \**************************************************************************************************/
 /*! exports provided: CancellationToken, CancellationTokenSource */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -214,7 +214,7 @@ class CancellationTokenSource {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/diff/diff.js":
 /*!***********************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/diff/diff.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/diff/diff.js ***!
   \***********************************************************************************************/
 /*! exports provided: StringDiffSequence, stringDiff, Debug, MyArray, LcsDiff */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1133,7 +1133,7 @@ class LcsDiff {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/diff/diffChange.js":
 /*!*****************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/diff/diffChange.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/diff/diffChange.js ***!
   \*****************************************************************************************************/
 /*! exports provided: DiffChange */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1179,7 +1179,7 @@ class DiffChange {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/errors.js":
 /*!********************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/errors.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/errors.js ***!
   \********************************************************************************************/
 /*! exports provided: ErrorHandler, errorHandler, onUnexpectedError, onUnexpectedExternalError, transformErrorForSerialization, isPromiseCanceledError, canceled, illegalArgument, illegalState, NotSupportedError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1297,7 +1297,7 @@ class NotSupportedError extends Error {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/event.js":
 /*!*******************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/event.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/event.js ***!
   \*******************************************************************************************/
 /*! exports provided: Event, Emitter, PauseableEmitter, DebounceEmitter, EventBufferer, Relay */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1904,7 +1904,7 @@ class Relay {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/functional.js":
 /*!************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/functional.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/functional.js ***!
   \************************************************************************************************/
 /*! exports provided: once */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1935,7 +1935,7 @@ function once(fn) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/hash.js":
 /*!******************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/hash.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/hash.js ***!
   \******************************************************************************************/
 /*! exports provided: hash, doHash, numberHash, stringHash, toHexString, StringSHA1 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2213,7 +2213,7 @@ StringSHA1._bigBlock32 = new DataView(new ArrayBuffer(320)); // 80 * 4 = 320
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/iterator.js":
 /*!**********************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/iterator.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/iterator.js ***!
   \**********************************************************************************************/
 /*! exports provided: Iterable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2376,7 +2376,7 @@ var Iterable;
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/keyCodes.js":
 /*!**********************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/keyCodes.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/keyCodes.js ***!
   \**********************************************************************************************/
 /*! exports provided: KeyCodeUtils, KeyChord, createKeybinding, createSimpleKeybinding, SimpleKeybinding, ChordKeybinding, ResolvedKeybindingPart, ResolvedKeybinding */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2649,7 +2649,7 @@ class ResolvedKeybinding {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/lifecycle.js":
 /*!***********************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/lifecycle.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/lifecycle.js ***!
   \***********************************************************************************************/
 /*! exports provided: setDisposableTracker, markAsSingleton, MultiDisposeError, isDisposable, dispose, combinedDisposable, toDisposable, DisposableStore, Disposable, MutableDisposable, ImmortalReference */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2923,7 +2923,7 @@ class ImmortalReference {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/linkedList.js":
 /*!************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/linkedList.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/linkedList.js ***!
   \************************************************************************************************/
 /*! exports provided: LinkedList */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3061,7 +3061,7 @@ class LinkedList {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/path.js":
 /*!******************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/path.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/path.js ***!
   \******************************************************************************************/
 /*! exports provided: win32, posix, normalize, resolve, relative, dirname, basename, extname, sep */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -4463,7 +4463,7 @@ const sep = (_process_js__WEBPACK_IMPORTED_MODULE_0__["platform"] === 'win32' ? 
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/platform.js":
 /*!**********************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/platform.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/platform.js ***!
   \**********************************************************************************************/
 /*! exports provided: globals, isWindows, isMacintosh, isLinux, isNative, isWeb, isIOS, userAgent, setImmediate, OS, isLittleEndian */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -4618,7 +4618,7 @@ function isLittleEndian() {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/process.js":
 /*!*********************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/process.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/process.js ***!
   \*********************************************************************************************/
 /*! exports provided: cwd, env, platform */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -4693,7 +4693,7 @@ const platform = safeProcess.platform;
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/stopwatch.js":
 /*!***********************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/stopwatch.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/stopwatch.js ***!
   \***********************************************************************************************/
 /*! exports provided: StopWatch */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -4736,7 +4736,7 @@ class StopWatch {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/strings.js":
 /*!*********************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/strings.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/strings.js ***!
   \*********************************************************************************************/
 /*! exports provided: isFalsyOrWhitespace, format, escape, escapeRegExpCharacters, trim, ltrim, rtrim, convertSimple2RegExpPattern, stripWildcards, createRegExp, regExpLeadsToEndlessLoop, regExpFlags, splitLines, firstNonWhitespaceIndex, getLeadingWhitespace, lastNonWhitespaceIndex, compare, compareSubstring, compareIgnoreCase, compareSubstringIgnoreCase, isLowerAsciiLetter, isUpperAsciiLetter, equalsIgnoreCase, startsWithIgnoreCase, commonPrefixLength, commonSuffixLength, isHighSurrogate, isLowSurrogate, computeCodePoint, getNextCodePoint, nextCharLength, prevCharLength, containsRTL, containsEmoji, isBasicASCII, UNUSUAL_LINE_TERMINATORS, containsUnusualLineTerminators, containsFullWidthCharacter, isFullWidthCharacter, isEmojiImprecise, UTF8_BOM_CHARACTER, startsWithUTF8BOM, containsUppercaseCharacter, singleLetterHash, getGraphemeBreakType, breakBetweenGraphemeBreakType, getLeftDeleteOffset */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -5508,7 +5508,7 @@ function isEmojiModifier(codePoint) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/types.js":
 /*!*******************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/types.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/types.js ***!
   \*******************************************************************************************/
 /*! exports provided: isArray, isString, isObject, isNumber, isBoolean, isUndefined, isUndefinedOrNull, assertType, assertIsDefined, isFunction, validateConstraints, validateConstraint, getAllPropertyNames, getAllMethodNames, createProxyObject, withNullAsUndefined, assertNever */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -5680,7 +5680,7 @@ function assertNever(value, message = 'Unreachable') {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/uint.js":
 /*!******************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/uint.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/uint.js ***!
   \******************************************************************************************/
 /*! exports provided: toUint8, toUint32 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -5717,7 +5717,7 @@ function toUint32(v) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/uri.js":
 /*!*****************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/uri.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/uri.js ***!
   \*****************************************************************************************/
 /*! exports provided: URI, uriToFsPath */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -6323,7 +6323,7 @@ function percentDecode(str) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/base/common/worker/simpleWorker.js":
 /*!*********************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/base/common/worker/simpleWorker.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/base/common/worker/simpleWorker.js ***!
   \*********************************************************************************************************/
 /*! exports provided: logOnceWebWorkerWarning, SimpleWorkerClient, SimpleWorkerServer, create */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -6623,7 +6623,7 @@ function create(postMessage) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/editor/common/core/characterClassifier.js":
 /*!****************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/editor/common/core/characterClassifier.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/editor/common/core/characterClassifier.js ***!
   \****************************************************************************************************************/
 /*! exports provided: CharacterClassifier, CharacterSet */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -6690,7 +6690,7 @@ class CharacterSet {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/editor/common/core/position.js":
 /*!*****************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/editor/common/core/position.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/editor/common/core/position.js ***!
   \*****************************************************************************************************/
 /*! exports provided: Position */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -6838,7 +6838,7 @@ class Position {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/editor/common/core/range.js":
 /*!**************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/editor/common/core/range.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/editor/common/core/range.js ***!
   \**************************************************************************************************/
 /*! exports provided: Range */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -7213,7 +7213,7 @@ class Range {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/editor/common/core/selection.js":
 /*!******************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/editor/common/core/selection.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/editor/common/core/selection.js ***!
   \******************************************************************************************************/
 /*! exports provided: Selection */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -7354,7 +7354,7 @@ class Selection extends _range_js__WEBPACK_IMPORTED_MODULE_1__["Range"] {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/editor/common/core/token.js":
 /*!**************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/editor/common/core/token.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/editor/common/core/token.js ***!
   \**************************************************************************************************/
 /*! exports provided: Token, TokenizationResult, TokenizationResult2 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -7399,7 +7399,7 @@ class TokenizationResult2 {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/editor/common/diff/diffComputer.js":
 /*!*********************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/editor/common/diff/diffComputer.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/editor/common/diff/diffComputer.js ***!
   \*********************************************************************************************************/
 /*! exports provided: DiffComputer */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -7813,7 +7813,7 @@ function createContinueProcessingPredicate(maximumRuntime) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/editor/common/model/mirrorTextModel.js":
 /*!*************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/editor/common/model/mirrorTextModel.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/editor/common/model/mirrorTextModel.js ***!
   \*************************************************************************************************************/
 /*! exports provided: MirrorTextModel */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -7944,7 +7944,7 @@ class MirrorTextModel {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/editor/common/model/wordHelper.js":
 /*!********************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/editor/common/model/wordHelper.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/editor/common/model/wordHelper.js ***!
   \********************************************************************************************************/
 /*! exports provided: USUAL_WORD_SEPARATORS, DEFAULT_WORD_REGEXP, ensureValidWordDefinition, getWordAtText */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -8077,7 +8077,7 @@ function _findRegexMatchEnclosingPosition(wordDefinition, text, pos, stopPos) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/editor/common/modes/linkComputer.js":
 /*!**********************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/editor/common/modes/linkComputer.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/editor/common/modes/linkComputer.js ***!
   \**********************************************************************************************************/
 /*! exports provided: Uint8Matrix, StateMachine, LinkComputer, computeLinks */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -8359,7 +8359,7 @@ function computeLinks(model) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/editor/common/modes/supports/inplaceReplaceSupport.js":
 /*!****************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/editor/common/modes/supports/inplaceReplaceSupport.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/editor/common/modes/supports/inplaceReplaceSupport.js ***!
   \****************************************************************************************************************************/
 /*! exports provided: BasicInplaceReplace */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -8458,7 +8458,7 @@ BasicInplaceReplace.INSTANCE = new BasicInplaceReplace();
 
 /***/ "../../node_modules/monaco-editor/esm/vs/editor/common/services/editorSimpleWorker.js":
 /*!*******************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/editor/common/services/editorSimpleWorker.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/editor/common/services/editorSimpleWorker.js ***!
   \*******************************************************************************************************************/
 /*! exports provided: MirrorModel, EditorSimpleWorker, create */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -8968,7 +8968,7 @@ if (typeof importScripts === 'function') {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/editor/common/standalone/standaloneBase.js":
 /*!*****************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/editor/common/standalone/standaloneBase.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/editor/common/standalone/standaloneBase.js ***!
   \*****************************************************************************************************************/
 /*! exports provided: KeyMod, createMonacoBaseAPI */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -9032,7 +9032,7 @@ function createMonacoBaseAPI() {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/editor/common/standalone/standaloneEnums.js":
 /*!******************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/editor/common/standalone/standaloneEnums.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/editor/common/standalone/standaloneEnums.js ***!
   \******************************************************************************************************************/
 /*! exports provided: AccessibilitySupport, CompletionItemInsertTextRule, CompletionItemKind, CompletionItemTag, CompletionTriggerKind, ContentWidgetPositionPreference, CursorChangeReason, DefaultEndOfLine, DocumentHighlightKind, EditorAutoIndentStrategy, EditorOption, EndOfLinePreference, EndOfLineSequence, IndentAction, InlayHintKind, InlineCompletionTriggerKind, KeyCode, MarkerSeverity, MarkerTag, MinimapPosition, MouseTargetType, OverlayWidgetPositionPreference, OverviewRulerLane, RenderLineNumbersType, RenderMinimap, ScrollType, ScrollbarVisibility, SelectionDirection, SignatureHelpTriggerKind, SymbolKind, SymbolTag, TextEditorCursorBlinkingStyle, TextEditorCursorStyle, TrackedRangeStickiness, WrappingIndent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -9923,7 +9923,7 @@ var WrappingIndent;
 
 /***/ "../../node_modules/monaco-editor/esm/vs/editor/common/viewModel/prefixSumComputer.js":
 /*!*******************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/editor/common/viewModel/prefixSumComputer.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/editor/common/viewModel/prefixSumComputer.js ***!
   \*******************************************************************************************************************/
 /*! exports provided: PrefixSumIndexOfResult, PrefixSumComputer */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -10075,7 +10075,7 @@ class PrefixSumComputer {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/editor/editor.worker.js":
 /*!**********************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/editor/editor.worker.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/editor/editor.worker.js ***!
   \**********************************************************************************************/
 /*! exports provided: initialize */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -10116,7 +10116,7 @@ self.onmessage = (e) => {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/jsonc-parser/impl/edit.js":
 /*!********************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/jsonc-parser/impl/edit.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/jsonc-parser/impl/edit.js ***!
   \********************************************************************************************************************/
 /*! exports provided: removeProperty, setProperty, applyEdit, isWS */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -10321,7 +10321,7 @@ function isWS(text, offset) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/jsonc-parser/impl/format.js":
 /*!**********************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/jsonc-parser/impl/format.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/jsonc-parser/impl/format.js ***!
   \**********************************************************************************************************************/
 /*! exports provided: format, isEOL */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -10542,7 +10542,7 @@ function isEOL(text, offset) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/jsonc-parser/impl/parser.js":
 /*!**********************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/jsonc-parser/impl/parser.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/jsonc-parser/impl/parser.js ***!
   \**********************************************************************************************************************/
 /*! exports provided: getLocation, parse, parseTree, findNodeAtLocation, getNodePath, getNodeValue, contains, findNodeAtOffset, visit, stripComments, getNodeType */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -11188,7 +11188,7 @@ function getNodeType(value) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/jsonc-parser/impl/scanner.js":
 /*!***********************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/jsonc-parser/impl/scanner.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/jsonc-parser/impl/scanner.js ***!
   \***********************************************************************************************************************/
 /*! exports provided: createScanner */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -11565,7 +11565,7 @@ function isDigit(ch) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/jsonc-parser/main.js":
 /*!***************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/jsonc-parser/main.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/jsonc-parser/main.js ***!
   \***************************************************************************************************************/
 /*! exports provided: createScanner, getLocation, parse, parseTree, findNodeAtLocation, findNodeAtOffset, getNodePath, getNodeValue, visit, stripComments, printParseErrorCode, format, modify, applyEdits */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -11712,7 +11712,7 @@ function applyEdits(text, edits) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/jsonLanguageService.js":
 /*!*********************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/jsonLanguageService.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/jsonLanguageService.js ***!
   \*********************************************************************************************************************************************/
 /*! exports provided: TextDocument, Range, Position, MarkupContent, MarkupKind, Color, ColorInformation, ColorPresentation, FoldingRange, FoldingRangeKind, SelectionRange, Diagnostic, DiagnosticSeverity, CompletionItem, CompletionItemKind, CompletionList, CompletionItemTag, InsertTextFormat, SymbolInformation, SymbolKind, DocumentSymbol, Location, Hover, MarkedString, CodeActionContext, Command, CodeAction, DocumentHighlight, DocumentLink, WorkspaceEdit, TextEdit, CodeActionKind, TextDocumentEdit, VersionedTextDocumentIdentifier, DocumentHighlightKind, ErrorCode, ClientCapabilities, getLanguageService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -11877,7 +11877,7 @@ function getLanguageService(params) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/jsonLanguageTypes.js":
 /*!*******************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/jsonLanguageTypes.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/jsonLanguageTypes.js ***!
   \*******************************************************************************************************************************************/
 /*! exports provided: TextDocument, Range, Position, MarkupContent, MarkupKind, Color, ColorInformation, ColorPresentation, FoldingRange, FoldingRangeKind, SelectionRange, Diagnostic, DiagnosticSeverity, CompletionItem, CompletionItemKind, CompletionList, CompletionItemTag, InsertTextFormat, SymbolInformation, SymbolKind, DocumentSymbol, Location, Hover, MarkedString, CodeActionContext, Command, CodeAction, DocumentHighlight, DocumentLink, WorkspaceEdit, TextEdit, CodeActionKind, TextDocumentEdit, VersionedTextDocumentIdentifier, DocumentHighlightKind, ErrorCode, ClientCapabilities */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -12009,7 +12009,7 @@ var ClientCapabilities;
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/parser/jsonParser.js":
 /*!*******************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/parser/jsonParser.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/parser/jsonParser.js ***!
   \*******************************************************************************************************************************************/
 /*! exports provided: ASTNodeImpl, NullASTNodeImpl, BooleanASTNodeImpl, ArrayASTNodeImpl, NumberASTNodeImpl, StringASTNodeImpl, PropertyASTNodeImpl, ObjectASTNodeImpl, asSchema, EnumMatch, ValidationResult, newJSONDocument, getNodeValue, getNodePath, contains, JSONDocument, parse */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -13256,7 +13256,7 @@ function parse(textDocument, config) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/configuration.js":
 /*!************************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/configuration.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/configuration.js ***!
   \************************************************************************************************************************************************/
 /*! exports provided: schemaContributions */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -13801,7 +13801,7 @@ for (var schemaName in schemaContributions.schemas) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonCompletion.js":
 /*!*************************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonCompletion.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonCompletion.js ***!
   \*************************************************************************************************************************************************/
 /*! exports provided: JSONCompletion */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -14756,7 +14756,7 @@ var JSONCompletion = /** @class */ (function () {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonDocumentSymbols.js":
 /*!******************************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonDocumentSymbols.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonDocumentSymbols.js ***!
   \******************************************************************************************************************************************************/
 /*! exports provided: JSONDocumentSymbols */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -15052,7 +15052,7 @@ function getRange(document, node) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonFolding.js":
 /*!**********************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonFolding.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonFolding.js ***!
   \**********************************************************************************************************************************************/
 /*! exports provided: getFoldingRanges */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -15189,7 +15189,7 @@ function getFoldingRanges(document, context) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonHover.js":
 /*!********************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonHover.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonHover.js ***!
   \********************************************************************************************************************************************/
 /*! exports provided: JSONHover */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -15317,7 +15317,7 @@ function toMarkdownCodeBlock(content) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonLinks.js":
 /*!********************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonLinks.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonLinks.js ***!
   \********************************************************************************************************************************************/
 /*! exports provided: findLinks */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -15405,7 +15405,7 @@ function unescape(str) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonSchemaService.js":
 /*!****************************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonSchemaService.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonSchemaService.js ***!
   \****************************************************************************************************************************************************/
 /*! exports provided: UnresolvedSchema, ResolvedSchema, JSONSchemaService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -15960,7 +15960,7 @@ function toDisplayString(url) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonSelectionRanges.js":
 /*!******************************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonSelectionRanges.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonSelectionRanges.js ***!
   \******************************************************************************************************************************************************/
 /*! exports provided: getSelectionRanges */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -16037,7 +16037,7 @@ function getSelectionRanges(document, positions, doc) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonValidation.js":
 /*!*************************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonValidation.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/services/jsonValidation.js ***!
   \*************************************************************************************************************************************************/
 /*! exports provided: JSONValidation */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -16201,7 +16201,7 @@ function toDiagnosticSeverity(severityLevel) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/utils/colors.js":
 /*!**************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/utils/colors.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/utils/colors.js ***!
   \**************************************************************************************************************************************/
 /*! exports provided: hexDigit, colorFromHex, colorFrom256RGB */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -16286,7 +16286,7 @@ function colorFrom256RGB(red, green, blue, alpha) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/utils/glob.js":
 /*!************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/utils/glob.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/utils/glob.js ***!
   \************************************************************************************************************************************/
 /*! exports provided: createRegex */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -16424,7 +16424,7 @@ function createRegex(glob, opts) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/utils/json.js":
 /*!************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/utils/json.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/utils/json.js ***!
   \************************************************************************************************************************************/
 /*! exports provided: stringifyObject */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -16480,7 +16480,7 @@ function stringifyObject(obj, indent, stringifyLiteral) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/utils/objects.js":
 /*!***************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/utils/objects.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/utils/objects.js ***!
   \***************************************************************************************************************************************/
 /*! exports provided: equals, isNumber, isDefined, isBoolean, isString */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -16563,7 +16563,7 @@ function isString(val) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/utils/strings.js":
 /*!***************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/utils/strings.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-json-languageservice/utils/strings.js ***!
   \***************************************************************************************************************************************/
 /*! exports provided: startsWith, endsWith, convertSimple2RegExpPattern, repeat, extendedRegExp */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -16633,7 +16633,7 @@ function extendedRegExp(pattern) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-languageserver-textdocument/lib/esm/main.js":
 /*!*********************************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-languageserver-textdocument/lib/esm/main.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-languageserver-textdocument/lib/esm/main.js ***!
   \*********************************************************************************************************************************************/
 /*! exports provided: TextDocument */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -16916,7 +16916,7 @@ function getWellformedEdit(textEdit) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-languageserver-types/main.js":
 /*!******************************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-languageserver-types/main.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-languageserver-types/main.js ***!
   \******************************************************************************************************************************/
 /*! exports provided: integer, uinteger, Position, Range, Location, LocationLink, Color, ColorInformation, ColorPresentation, FoldingRangeKind, FoldingRange, DiagnosticRelatedInformation, DiagnosticSeverity, DiagnosticTag, CodeDescription, Diagnostic, Command, TextEdit, ChangeAnnotation, ChangeAnnotationIdentifier, AnnotatedTextEdit, TextDocumentEdit, CreateFile, RenameFile, DeleteFile, WorkspaceEdit, WorkspaceChange, TextDocumentIdentifier, VersionedTextDocumentIdentifier, OptionalVersionedTextDocumentIdentifier, TextDocumentItem, MarkupKind, MarkupContent, CompletionItemKind, InsertTextFormat, CompletionItemTag, InsertReplaceEdit, InsertTextMode, CompletionItem, CompletionList, MarkedString, Hover, ParameterInformation, SignatureInformation, DocumentHighlightKind, DocumentHighlight, SymbolKind, SymbolTag, SymbolInformation, DocumentSymbol, CodeActionKind, CodeActionContext, CodeAction, CodeLens, FormattingOptions, DocumentLink, SelectionRange, EOL, TextDocument */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -18896,7 +18896,7 @@ var Is;
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-uri/index.js":
 /*!**************************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-uri/index.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/_deps/vscode-uri/index.js ***!
   \**************************************************************************************************************/
 /*! exports provided: URI, Utils */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -18912,7 +18912,7 @@ var LIB;LIB=(()=>{"use strict";var t={470:t=>{function e(t){if("string"!=typeof 
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/fillers/vscode-nls.js":
 /*!**********************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/fillers/vscode-nls.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/fillers/vscode-nls.js ***!
   \**********************************************************************************************************/
 /*! exports provided: loadMessageBundle, config */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -18957,7 +18957,7 @@ function config(opt) {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/json.worker.js":
 /*!***************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/json.worker.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/json.worker.js ***!
   \***************************************************************************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -18984,7 +18984,7 @@ self.onmessage = function () {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/language/json/jsonWorker.js":
 /*!**************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/language/json/jsonWorker.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/language/json/jsonWorker.js ***!
   \**************************************************************************************************/
 /*! exports provided: JSONWorker, create */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {

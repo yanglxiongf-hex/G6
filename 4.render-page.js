@@ -3,7 +3,7 @@ exports.modules = {
 
 /***/ "../../node_modules/monaco-editor/esm/vs/basic-languages/html/html.js":
 /*!***************************************************************************************************!*\
-  !*** /Users/shiwu/code/G6-2021/G6/node_modules/monaco-editor/esm/vs/basic-languages/html/html.js ***!
+  !*** /Users/shiwu/code/G6-2022/G6/node_modules/monaco-editor/esm/vs/basic-languages/html/html.js ***!
   \***************************************************************************************************/
 /*! exports provided: conf, language */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
