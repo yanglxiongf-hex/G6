@@ -1,9 +1,7 @@
-import { Canvas as GCanvas } from '@antv/g-canvas';
-import { Canvas as GSVGCanvas } from '@antv/g-svg';
-import { Event as GraphEvent, Point } from '@antv/g-base';
+import { Canvas, ICanvas, Point } from '@antv/g6-g-adapter';
 import { isString, isNil, each, debounce } from '@antv/util';
 import { createDom, modifyCSS } from '@antv/dom-util';
-import { Matrix, ShapeStyle, IAbstractGraph as IGraph } from '@antv/g6-core';
+import { Matrix, ShapeStyle, IAbstractGraph as IGraph, IG6GraphEvent as GraphEvent } from '@antv/g6-core';
 import { ext } from '@antv/matrix-util';
 import Base, { IPluginBaseConfig } from '../base';
 
@@ -205,8 +203,6 @@ export default class MiniMap extends Base {
   private updateViewport() {
     if (this.destroyed) return;
     const ratio: number = this.get('ratio');
-    const dx: number = this.get('dx');
-    const dy: number = this.get('dy');
     const totaldx: number = this.get('totaldx');
     const totaldy: number = this.get('totaldy');
     const graph: IGraph = this.get('graph');
@@ -216,9 +212,7 @@ export default class MiniMap extends Base {
     const topLeft: Point = graph.getPointByCanvas(0, 0);
     const bottomRight: Point = graph.getPointByCanvas(graphWidth, graphHeight);
     const viewport: HTMLElement = this.get('viewport');
-    if (!viewport) {
-      this.initViewport();
-    }
+    if (!viewport) this.initViewport();
 
     // viewport宽高,左上角点的计算
     let width = (bottomRight.x - topLeft.x) * ratio;
@@ -264,7 +258,7 @@ export default class MiniMap extends Base {
    */
   private updateGraphShapes() {
     const { graph } = this._cfgs;
-    const canvas: GCanvas = this.get('canvas');
+    const canvas: ICanvas = this.get('canvas');
     const graphGroup = graph!.get('group');
     if (graphGroup.destroyed) return;
     const clonedGroup = graphGroup.clone();
@@ -272,7 +266,7 @@ export default class MiniMap extends Base {
     clonedGroup.resetMatrix();
 
     canvas.clear();
-    canvas.add(clonedGroup);
+    canvas.appendChild(clonedGroup);
 
     // 当 renderer 是 svg，由于渲染引擎的 bug，这里需要将 visible 为 false 的元素手动隐藏
     const renderer = graph.get('renderer');
@@ -282,7 +276,7 @@ export default class MiniMap extends Base {
     }
   }
 
-  // svg 在 canvas.add(clonedGroup) 之后会出现 visible 为 false 的元素被展示出来，需要递归更新
+  // svg 在 canvas.appendChild(clonedGroup) 之后会出现 visible 为 false 的元素被展示出来，需要递归更新
   private updateVisible(ele) {
     if (!ele.isGroup() && !ele.get('visible')) {
       ele.hide();
@@ -301,7 +295,7 @@ export default class MiniMap extends Base {
   private updateKeyShapes() {
     const { graph } = this._cfgs;
 
-    const canvas: GCanvas = this.get('canvas');
+    const canvas: ICanvas = this.get('canvas');
     const group = canvas.get('children')[0] || canvas.addGroup();
 
     each(graph!.getEdges(), (edge) => {
@@ -348,7 +342,7 @@ export default class MiniMap extends Base {
     };
     if (!mappedItem) {
       mappedItem = cKeyShape;
-      comboGroup.add(mappedItem);
+      comboGroup.appendChild(mappedItem);
     } else {
       attrs = Object.assign(keyShapeStyle, attrs);
     }
@@ -385,7 +379,7 @@ export default class MiniMap extends Base {
     };
     if (!mappedItem) {
       mappedItem = cKeyShape;
-      group.add(mappedItem);
+      group.appendChild(mappedItem);
     } else {
       attrs = Object.assign(keyShapeStyle, attrs);
     }
@@ -410,7 +404,7 @@ export default class MiniMap extends Base {
   private updateDelegateShapes() {
     const { graph } = this._cfgs;
 
-    const canvas: GCanvas = this.get('canvas');
+    const canvas: ICanvas = this.get('canvas');
     const group = canvas.get('children')[0] || canvas.addGroup();
 
     // 差量更新 minimap 上的节点和边
@@ -448,7 +442,12 @@ export default class MiniMap extends Base {
       const exist = shape.exist;
       shape.exist = false;
       if (!exist) {
-        shape.remove();
+        const group = shape.get('parent');
+        if (group) {
+          group.removeChild(shape, true);
+        } else {
+          shape.remove(true);
+        }
         delete itemMap[keys[i]];
       }
     }
@@ -467,7 +466,7 @@ export default class MiniMap extends Base {
       mappedItem.attr('path', path);
     } else {
       mappedItem = item.get('keyShape').clone();
-      group.add(mappedItem);
+      group.appendChild(mappedItem);
     }
     if (!item.isVisible()) mappedItem.hide();
     else mappedItem.show();
@@ -578,19 +577,13 @@ export default class MiniMap extends Base {
 
     let canvas;
     const renderer = graph.get('renderer');
-    if (renderer === SVG) {
-      canvas = new GSVGCanvas({
-        container: containerDOM,
-        width: size[0],
-        height: size[1],
-      });
-    } else {
-      canvas = new GCanvas({
-        container: containerDOM,
-        width: size[0],
-        height: size[1],
-      });
-    }
+    const canvasCfg = {
+      container: containerDOM,
+      width: size[0],
+      height: size[1],
+      renderer
+    };
+    canvas = new Canvas(canvasCfg);
     self.set('canvas', canvas);
     self.updateCanvas();
   }
@@ -614,7 +607,7 @@ export default class MiniMap extends Base {
     }
 
     const size: number[] = this.get('size'); // 用户定义的 minimap size
-    const canvas: GCanvas = this.get('canvas'); // minimap 的 canvas
+    const canvas: ICanvas = this.get('canvas'); // minimap 的 canvas
     const type: string = this.get('type'); // minimap 的类型
     const padding: number = this.get('padding'); // 用户额定义的 minimap 的 padding
 
@@ -696,7 +689,7 @@ export default class MiniMap extends Base {
    * 获取minimap的画布
    * @return {GCanvas} G的canvas实例
    */
-  public getCanvas(): GCanvas {
+  public getCanvas(): ICanvas {
     return this.get('canvas');
   }
 

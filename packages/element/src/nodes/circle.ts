@@ -1,4 +1,4 @@
-import { IGroup, IShape } from '@antv/g-base';
+import { IGroup, IShape } from '@antv/g6-g-adapter';
 import {
   registerNode,
   Item,
@@ -72,7 +72,7 @@ registerNode(
       });
       group['shapeMap'][name] = keyShape;
 
-      const { width, height, show, text } = icon;
+      const { width = 20, height = 20, show, text } = icon;
       if (show) {
         const iconName = `${this.type}-icon`;
         if (text) {
@@ -221,7 +221,7 @@ registerNode(
       // TODO: performance
       // const style = deepMix({}, keyShape.attr(), strokeStyle, cfg.style);
       // const style = deepMix({}, keyShape.attr(), cfg.style);
-      const style = {...cfg.style};
+      const style = { ...cfg.style };
       if (cfg.style.stroke === undefined && cfg.color) {
         style.stroke = cfg.color;
       }

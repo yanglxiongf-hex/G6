@@ -2,13 +2,15 @@
  * @fileOverview common combo shape
  * @author shiwu.wyy@antfin.com
  */
-import { IGroup, IShape } from '@antv/g-base';
+// import { IGroup, IShape } from '@antv/g-base';
+import { IGroup, IShape } from '@antv/g6-g-adapter';
 import { isArray, isNil, clone } from '@antv/util';
 import { ILabelConfig, ShapeOptions } from '../interface/shape';
 import { Item, LabelStyle, NodeConfig, ModelConfig, ShapeStyle } from '../types';
 import Global from '../global';
 import Shape from './shape';
 import { shapeBase } from './shapeBase';
+import { filterByAnimateAttrs } from '../util/graphic';
 
 const singleCombo: ShapeOptions = {
   itemType: 'combo',
@@ -143,8 +145,9 @@ const singleCombo: ShapeOptions = {
   updateShape(cfg: NodeConfig, item: Item, keyShapeStyle: ShapeStyle) {
     const keyShape = item.get('keyShape');
     const animate = cfg.animate === undefined ? this.options.animate : cfg.animate;
+    const filteredAttrs = filterByAnimateAttrs(keyShapeStyle);
     if (animate && keyShape.animate) {
-      keyShape.animate(keyShapeStyle, {
+      keyShape.animate(filteredAttrs, {
         duration: 200,
         easing: 'easeLinear',
       });

@@ -2,7 +2,8 @@
  * @fileOverview common node shape
  * @author huangtonger@aliyun.com
  */
-import { IGroup, IShape, IElement } from '@antv/g-base';
+// import { IGroup, IShape, IElement } from '@antv/g-base';
+import { IGroup, IShape, IElement } from '@antv/g6-g-adapter';
 import { isArray, isNil, mix } from '@antv/util';
 import { ILabelConfig, ShapeOptions } from '../interface/shape';
 import { Item, LabelStyle, NodeConfig, ModelConfig, UpdateType } from '../types';
@@ -183,7 +184,7 @@ const singleNode: ShapeOptions = {
 
     if (markLeft) {
       if (!left && left !== undefined) {
-        markLeft.remove();
+        group.removeChild(markLeft, true);
         delete group['shapeMap']['link-point-left'];
       } else {
         markLeft.attr({
@@ -208,7 +209,7 @@ const singleNode: ShapeOptions = {
 
     if (markRight) {
       if (!right && right !== undefined) {
-        markRight.remove();
+        group.removeChild(markRight, true);
         delete group['shapeMap']['link-point-right'];
       }
       markRight.attr({
@@ -231,8 +232,9 @@ const singleNode: ShapeOptions = {
     }
 
     if (markTop) {
+      console.log('top', top)
       if (!top && top !== undefined) {
-        markTop.remove();
+        group.removeChild(markTop, true);
         delete group['shapeMap']['link-point-top'];
       }
       markTop.attr({
@@ -256,7 +258,7 @@ const singleNode: ShapeOptions = {
 
     if (markBottom) {
       if (!bottom && bottom !== undefined) {
-        markBottom.remove();
+        group.removeChild(markBottom, true);
         delete group['shapeMap']['link-point-bottom'];
       } else {
         markBottom.attr({
@@ -315,7 +317,7 @@ const singleNode: ShapeOptions = {
         });
       } else {
         // 若传入了 show: false 则删除原先的 icon
-        iconShape.remove();
+        group.removeChild(iconShape, true);
       }
     } else if (show) {
       // 如果原先不存在 icon，但传入了 show: true，则新增 icon
@@ -336,7 +338,7 @@ const singleNode: ShapeOptions = {
           name,
         });
       } else {
-        let { width: w, height: h } = icon;
+        let { width: w = 20, height: h = 20 } = icon;
         group['shapeMap'][name] = group.addShape('image', {
           attrs: {
             ...icon,
